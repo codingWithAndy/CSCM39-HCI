@@ -1,0 +1,287 @@
+\documentclass{sigchi}
+
+% Use this section to set the ACM copyright statement (e.g. for
+% preprints).  Consult the conference website for the camera-ready
+% copyright statement.
+
+% Copyright
+\CopyrightYear{2020}
+%\setcopyright{acmcopyright}
+\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+% DOI
+
+
+% Use this command to override the default ACM copyright statement
+% (e.g. for preprints).  Consult the conference website for the
+% camera-ready copyright statement.
+
+%% HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP --
+%% Please note you need to make sure the copy for your specific
+%% license is used here!
+% \toappear{
+% Permission to make digital or hard copies of all or part of this work
+% for personal or classroom use is granted without fee provided that
+% copies are not made or distributed for profit or commercial advantage
+% and that copies bear this notice and the full citation on the first
+% page. Copyrights for components of this work owned by others than ACM
+% must be honored. Abstracting with credit is permitted. To copy
+% otherwise, or republish, to post on servers or to redistribute to
+% lists, requires prior specific permission and/or a fee. Request
+% permissions from \href{mailto:Permissions@acm.org}{Permissions@acm.org}. \\
+% \emph{CHI '16},  May 07--12, 2016, San Jose, CA, USA \\
+% ACM xxx-x-xxxx-xxxx-x/xx/xx\ldots \$15.00 \\
+% DOI: \url{http://dx.doi.org/xx.xxxx/xxxxxxx.xxxxxxx}
+% }
+
+% Arabic page numbers for submission.  Remove this line to eliminate
+% page numbers for the camera ready copy
+% \pagenumbering{arabic}
+
+% Load basic packages
+\usepackage{balance}       % to better equalize the last page
+\usepackage{graphics}      % for EPS, load graphicx instead 
+\usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+\usepackage{txfonts}
+\usepackage{mathptmx}
+\usepackage[pdflang={en-US},pdftex]{hyperref}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{textcomp}
+
+% Some optional stuff you might like/need.
+\usepackage{microtype}        % Improved Tracking and Kerning
+% \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
+\usepackage{ccicons}          % Cite your images correctly!
+% \usepackage[utf8]{inputenc} % for a UTF8 editor only
+
+% If you want to use todo notes, marginpars etc. during creation of
+% your draft document, you have to enable the "chi_draft" option for
+% the document class. To do this, change the very first line to:
+% "\documentclass[chi_draft]{sigchi}". You can then place todo notes
+% by using the "\todo{...}"  command. Make sure to disable the draft
+% option again before submitting your final document.
+\usepackage{todonotes}
+
+% Paper metadata (use plain text, for PDF inclusion and later
+% re-using, if desired).  Use \emtpyauthor when submitting for review
+% so you remain anonymous.
+\def\plaintitle{SIGCHI Conference Proceedings Format}
+\def\plainauthor{First Author, Second Author, Third Author,
+  Fourth Author, Fifth Author, Sixth Author}
+\def\emptyauthor{}
+\def\plainkeywords{Authors' choice; of terms; separated; by
+  semicolons; include commas, within terms only; this section is required.}
+\def\plaingeneralterms{Documentation, Standardization}
+
+\pagestyle{plain}
+
+% llt: Define a global style for URLs, rather that the default one
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{
+    \def\UrlFont{\sf}
+  }{
+    \def\UrlFont{\small\bf\ttfamily}
+  }}
+\makeatother
+\urlstyle{leo}
+
+% To make various LaTeX processors do the right thing with page size.
+\def\pprw{8.5in}
+\def\pprh{11in}
+\special{papersize=\pprw,\pprh}
+\setlength{\paperwidth}{\pprw}
+\setlength{\paperheight}{\pprh}
+\setlength{\pdfpagewidth}{\pprw}
+\setlength{\pdfpageheight}{\pprh}
+
+% Make sure hyperref comes last of your loaded packages, to give it a
+% fighting chance of not being over-written, since its job is to
+% redefine many LaTeX commands.
+\definecolor{linkColor}{RGB}{6,125,233}
+\hypersetup{%
+  pdftitle={\plaintitle},
+% Use \plainauthor for final version.
+%  pdfauthor={\plainauthor},
+  pdfauthor={\emptyauthor},
+  pdfkeywords={\plainkeywords},
+  pdfdisplaydoctitle=true, % For Accessibility
+  bookmarksnumbered,
+  pdfstartview={FitH},
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=linkColor,
+  breaklinks=true,
+  hypertexnames=false
+}
+
+% create a shortcut to typeset table headings
+% \newcommand\tabhead[1]{\small\textbf{#1}}
+
+% End of preamble. Here it comes the document.
+\begin{document}
+
+\title{\plaintitle}
+
+\numberofauthors{1}
+\author{%
+  \alignauthor{Andrew Gray\\
+  	\affaddr{\date{05/05/2020}}\\
+  	\affaddr{Swansea, Wales}\\
+  	\email{445348@swansea.ac.uk}}\\
+}
+
+\maketitle
+
+\begin{abstract}
+  UPDATED---\today. This sample paper describes the formatting
+  requirements for SIGCHI conference proceedings, and offers
+  recommendations on writing for the worldwide SIGCHI
+  readership. Please review this document even if you have submitted
+  to SIGCHI conferences before, as some format details have changed
+  relative to previous years. Abstracts should be about 150 words and
+  are required.
+\end{abstract}
+
+
+% ACM Classfication
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003120.10003121</concept_id>
+<concept_desc>Human-centered computing~Human computer interaction (HCI)</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003121.10003125.10011752</concept_id>
+<concept_desc>Human-centered computing~Haptic devices</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003121.10003122.10003334</concept_id>
+<concept_desc>Human-centered computing~User studies</concept_desc>
+<concept_significance>100</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Human-centered computing~Human computer interaction (HCI)}
+\ccsdesc[300]{Human-centered computing~Haptic devices}
+\ccsdesc[100]{Human-centered computing~User studies}
+
+% Author Keywords
+\keywords{\plainkeywords}
+
+% Print the classficiation codes
+\printccsdesc
+Please use the 2012 Classifiers and see this link to embed them in the text: \url{https://dl.acm.org/ccs/ccs_flat.cfm}
+
+
+
+\section{Introduction}
+
+\subsection{History}
+[Take from Report]\\
+
+Gamification is known as a powerful tool for engagement, which has, since its initial conception, now become a standard feature within software development [3]. The term gamification first appeared in the context of software design in 2008 [4], but the term only started to get more widespread recognition within 2010. However, the term “gamification” was first coined by Nick Pelling in 2002 [3]. Its initial aim was to incorporate the social and reward features of games into the software. Gamification started to gain much attention, so much so that it got described by a venture capitalist as one of the most promising areas of gaming [5]. 
+Researchers consider gamification to be the progression of earlier work that focuses on adopting game-design elements to non-game situations and contexts. Research in the human-computer interaction field that uses game-driven elements for motivation and interface design suggests that there is a connection between Soviet concepts of socialist competition and the American management trend of “fun at work” [5]. 
+In 2010, Jane McGonigal delivered a groundbreaking TED Talk titled, “Gaming Can Make a Better World’ [6]. This talk is considered the defining moment in the history of gamification. Within the talk, she prophesies a game based paradise. Where she states that “When I look forward to the next decade, I know two things for sure: that we can make any future we can imagine, and we can play any games we want, so I say: Let the world-changing games begin [6].” Hindsight informs she was right, as, from 2011, gamification starts to pick up steam. During this year, at a Computer-Human Interaction (CHI) conference, a workshop titled “Gamification: Using Game Design Elements in Non-Gaming Contexts [7]”, which spawned the Gamification Research Network (GRN) [11]. Through the years 2012 to 2016, gamification continues to grow. Even so, that gamification goes viral without people knowing through a game called Pokémon Go. Pokémon Go is one of the most successful applications of gamification with over 800 million downloads. People who would usually turn their nose up at badge collecting were out patrolling the streets searching for rare pokemon. Pokémon Go is one of the most successful apps of all time. It even broke records [3, 8]. It could be said thanks to Pokémon Go, that gamification is everywhere. 
+
+Many established technology and other companies, including SAP AG, Microsoft, IBM, SAP, LiveOps, Deloitte, and other companies have started using gamification in various applications and processes [9]. 
+The increased popularity in gamification, within some contexts, has had led to many legal restrictions be placed upon it. However, this mainly refers to the use of virtual currencies and assets, as well as data privacy, data protection and labour laws. These laws are due to its nature of being a data mining systems that spread information online, known as data aggregator [10, 11]. 
+
+\subsection{Science of Gamification}
+[Taken from report]
+
+Games are fun, and there is no denying that whether it is playing more traditional video games, mobile games or a recent phenomenon McDonalds Monopoly. The games industry is work an estimated \$2.3 trillion, showing that the global entertainment and media business is massive everywhere [12]. There is a reason behind this, as games made are crafted with the human brain in mind. From each roll of the dice, getting the correct combination, to defeating an opponent and enemy, to building a new settlement, each action rewards the brain, and its reward centre lights up [13]. 
+
+By incorporating aspects from games like points, levels and progression bars into non- game situations, we can recreate the experience of gaming. Having these elements within a product, to interact with the user, is why gamification is so powerful. 
+
+Games ranging from Super Mario Bros. to Monopoly have a real impact on brains and the way we learn. These impacts on are brain are due to dopamine. Dopamine is a neurotransmitter within a person’s brain that is triggered within a person whenever we do something positive or when a person feels that they have achieved something [14]. In essence, dopamine is a natural drug that makes people feel good [13]. This drug, dopamine, is an integral part of our learning through reinforcement learning. As Nestler Lab explains, “activation of the pathway tells the individual to repeat what it just did to get that reward [13, 15].” We do something well, and we get a sense of reward from our brains which leads us to do it again. Hence why we as humans tend to feel good when we are learning something; however, it is not very easy to stay motivated while learning as the learning requirements increases. At this stage is where gamification shines and can help keep the user/learner motivated with a little boost along the way. The motivation, the critical factor gamification tries to manipulate, is triggered by the sense of success. Which leads onto more willingness and desire to do something, this can be achieved by not only rewarding the final goal but by also releasing small amounts of dopamine as we are edging closer to a goal. Allowing a user to know if they are nearing a milestone can be achieved by using progress bars. Each sub-goal completed fills up the bar giving instant gratification, with small hits of satisfaction and dopamine, on the build-up to meeting the primary goal and that massive hit of dopamine, therefore creating that motivation to keep going. This situation becomes superseded only when an unexpected gratification situation occurs, releasing even more dopamine. 
+
+While motivation is at the centre of gamification, our enthusiasm comes from three main areas: Autonomy; Value; Competence [16]. If someone is in charge of their destiny, they are more motivated to succeed. Allowing the person more control will mean that they will work harder towards objectives, especially for a more extended period, when given the opportunity and authority to select their direction when solving a problem. This aspect is giving them autonomy. The second principal area value is about the person feeling value to an activity or action. If the person feels that there is self-worth to the activity, then they will increase interest in the activity and increase their motivation levels. Research states that a positive correlation occurs when a student values a subject at school and their willingness to investigate a question. If the person cares, they will keep going and work harder until the task gets completed [12,16]. Finally, the third area is competence. If a person develops a certain degree of proficiency at something, they are more likely to keep doing it. Another study has shown that there is a link between a student’s sense of mastery and their desire to continue certain activities. Those who give credit to natural talent rather than hard work will more likely give up more quickly. 
+
+Gamification aims to take advantage of our extrinsic motivations, factors like final grades or money, and intrinsic motivation, traits like personal gains or enjoyment, to try and enhance our daily activities or tasks. Therefore, in order for the gamification to be most effective, then both these motivation factors need to be accounted for within the task. In order for the person to feel good about oneself, a form of reward has to exist [12]. 
+
+\subsection{Gamification in Education}
+[Take from Report]
+
+The gamification of learning is an educational approach to motivate students to learn by using game elements in a learning environment [22]. Which is very much the same thing as gamification in general, but more of a focus on learning. However, gamification in learning has two main views within academia. One that categories gamification of learning as learning, with game-like features, but only when learning is happening in a non-game context, like a classroom. This version would involve a range of elements that get presented in a system, or game layer, which aims to happen in parallel to the learning in a regular classroom. At the same time, the other half includes games that have been designed to induced learning within them [22] (see fig: 2.2). 
+
+Gamification within an educational or learning situation has multiple benefits. It is not just about trying to improve attendance with incentives by reaching a particular score, or extra rewards for completing specific tasks within a lesson. It can aid in cognitive development in adolescents, increase levels of engagement and can aid with accessibility within the classroom [24]. Games produced for enhancing cognitive development are known as “brain games” [24]. These popular games typically are centred around a series of questions and problems for the player to solve or answer. These games improve the rate the player can maintain information and increase the brain’s ability to process information. The levels of engagement increase, when gamification has been used, within a classroom. A study was performed by scientists, which aimed to measure students levels of engagement in a classroom where gamification elements where are used [25]. They assigned a point system to multiple daily activities. Each student had a measurement of the perceived level of engagement. Its finding is that the game like setting was supporting the learning within the classroom and increased productivity. By increasing engagement levels, it also means it helps students be able to access the content of the lesson, that is or needs to be delivered. 
+
+Even though gamification can aid teaching students of all needs, a study conducted on students who had autism using video games showed that this training package was powerful in teaching content that was age-appropriate [26]. However, gamification of learning is not something just for the classroom; its an excellent tool for learning outside the classroom. Games like Spore create a deeper understanding of life and evolution as the game simulates a world where the player’s character will evolve, adapting to their surroundings through reproduction. Another game by the same creator, Will Wright, Sim City aims to teach the player key skills like [27]: Supply and demand; Budgeting; Urban planning; Managing the environment; Understanding utilities and services like transport systems and public services; Reading and maths skills. 
+
+Gamification of learning has excellent potential benefits. The benefits involve [22]: Allow- ing students to have ownership of their learning, as well as giving opportunities for the learner to gain a sense of their’ own identity’, through alternative role-playing selves. The freedom, without any negative repercussions, to fail and keep on trying again. The ability to increase fun and joy while learning. The opportunity for tasks to be differentiated. Making the learning visible and providing opportunities to inspire intrinsic motivators for learning. Also, the ability to aiding in motivating students with low levels of motivation. 
+
+
+\section{Challenges}
+
+With previously being a teacher, it got observed that many gamification aspects are implemented within day-to-day aspects of schools already. Schools have metrics that staff and students must know and monitor their attendance, progress, behaviour and extra curriculum achievements. While teachers are usually completing paperwork to evidence that they are tracking these metrics, in forms of reports and spreadsheets, students are reliant on their form teacher or subject teacher to pass on the information. However, most of the general school metrics, like attendance and overall performance of the student gets left to the form teacher to pass onto the students. Usually, these metrics have an end of term or year reward, end of year trip or in the case of year 11 students, a passport to the prom. It is only allowing them to be allowed to attend if their metrics are at a certain level. Unfortunately, this form time tends to be only for a brief period of the day, most cases being about twenty minutes; within most cases, a lot of tasks and information needs to be passed out. For example, within the twenty minutes, teachers are expected to do the register, pass on any whole school messages, complete some form activity, which is usually, a citizenship topic or life skill theme, as well as any other task like panner signing. As we can see, a lot to do in a short period. Therefore, pass on this vital information gets lost and creates a lack of ownership from the students of their performance metrics. Due to the lack of ownership by the students, excluding a minority of extremely engaged students, most students rarely take an interest in their overall picture. Therefore their lack of understanding into the effects these particular metrics has on their education. Of their attendance and attitude, based on their behaviour and academic performance has on their more significant experience and impact on their education. Schools usually do have award systems in place and attendance tracking in place, but it is all done by separate pieces of software. With still a massive reliance on the teachers pass on the information or logging into the systems that distribute the behaviour points. Due to this lack of consistency from the teachers and inability for students to gain the information that they desire in a manner that is more suitable to their everyday life, the gamification techniques that are in place get lost and lose their impact and meaning. 
+
+\section{Possible Solution}
+
+A possible solution is to be able to create a platform that makes everything centralised. Education institutes already use a register system called SIMS[reference sims]. We believe this could be the center point for everything, in terms of input of data from the teachers. By enabling all of this information to be inputted in one place, like the praise points, behaviour points, a log of homework that has been set received on time or late, or even the passport to prom, it allows all of this information to be extracted more streamlined. With this one point of entry of the data, it should enable most teachers to be consistent and be more onboard to carry out the required base tasks that are required for the main school metrics that the students need to know.
+
+Form having the initial base information, like the attendance and behaviour points, a real-time app could extract this information and start to gamify it in a manner that today’s youth would be more accustomed. Gamification features like a progress bar filling up based on the number of days a student attends. Ultimately working towards that end of year trip, or maybe the passport to prom.
+
+Help to motivate students. A daily personalised notification could be out to students. Maybe reminding them to bring their PE kit, or that they have a particular class after school. It could also offer words of encouragement with students who maybe have low attendance by giving fact about what a lack of attendance can do to their education. Alternatively, encouraging information about having a better outlook, maybe motivational quotes on improving behaviour. The motivation for the students could also be driven with badges. These badges being awarded for the students having a ‘hot streak’ of attendance, like Snap Chat’s streak of messaging, or badges awarded for homework completed on time.
+
+The key focus for the students would have an app that they could view on a computer or their smartphones, which provides them with all the required metrics that they need to know about. This app, as a result, allows the students to have autonomy over their metrics and be able to view them in the best manner for them. Not having to rely on a teacher passing out the information, and fundamentally in a format that they are used to. However, we do understand that a lot of schools restrict mobile phones, or even ban them out right. But, with changing times, with schools wanting students to be more mindful and resilient, we need to make sure that they can get the vital information that is required, fundamentally in a way that they are more likely to receive it. We do believe that schools views on mobile phones should be taken into account. However, it is also naive to not take into account the changing worlds landscape and the type of world these current students are growing up in. Forever changing, so doing something, in a way, because that is how it was done while we were in school, or because it is the way it has always been done, does not make it right. Not in the slightest. We need to be training our children skills that are needed for a world that has not been created yet, using tools that are new and innovative. Not with tools that are traditional or within the teachers comfort zone.
+
+\section{Possible Results}
+
+
+
+\section{Conclusion and Future Discussions}
+
+
+
+\section{Acknowledgments}
+
+
+% Balancing columns in a ref list is a bit of a pain because you
+% either use a hack like flushend or balance, or manually insert
+% a column break.  http://www.tex.ac.uk/cgi-bin/texfaq2html?label=balance
+% multicols doesn't work because we're already in two-column mode,
+% and flushend isn't awesome, so I choose balance.  See this
+% for more info: http://cs.brown.edu/system/software/latex/doc/balance.pdf
+%
+% Note that in a perfect world balance wants to be in the first
+% column of the last page.
+%
+% If balance doesn't work for you, you can remove that and
+% hard-code a column break into the bbl file right before you
+% submit:
+%
+% http://stackoverflow.com/questions/2149854/how-to-manually-equalize-columns-
+% in-an-ieee-paper-if-using-bibtex
+%
+% Or, just remove \balance and give up on balancing the last page.
+%
+\balance{}
+
+
+
+% BALANCE COLUMNS
+\balance{}
+
+% REFERENCES FORMAT
+% References must be the same font size as other body text.
+\bibliographystyle{SIGCHI-Reference-Format}
+\bibliography{sample}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
