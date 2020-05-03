@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  24 APR 2020 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  3 MAY 2020 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1225,64 +1225,101 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
- [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+LaTeX Warning: Citation `4' on page \thepage  undefined on input line 196.
+
+
+LaTeX Warning: Citation `3e' on page \thepage  undefined on input line 196.
+
+
+LaTeX Warning: Citation `5' on page \thepage  undefined on input line 196.
+
+
+LaTeX Warning: Citation `3e' on page \thepage  undefined on input line 196.
+
+
+LaTeX Warning: Citation `5' on page \thepage  undefined on input line 196.
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 <special> papersize=8.5in,11in
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: Citation `6' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `6' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `7' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `11' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `3' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `8' on page \thepage  undefined on input line 198.
+
+
+LaTeX Warning: Citation `9' on page \thepage  undefined on input line 200.
+
+
+LaTeX Warning: Citation `10' on page \thepage  undefined on input line 202.
+
+
+LaTeX Warning: Citation `11' on page \thepage  undefined on input line 202.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 [3]
+Underfull \vbox (badness 3601) has occurred while \output is active []
+
+
 
 LaTeX Warning: Citation `Suiyan slides' on page \thepage  undefined on input li
-ne 243.
+ne 244.
 
 
 LaTeX Warning: Citation `Suiyan slides' on page \thepage  undefined on input li
-ne 243.
+ne 244.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
+[4]
 
 LaTeX Warning: Citation `find_sch_ref' on page \thepage  undefined on input lin
-e 291.
+e 292.
 
 
 LaTeX Warning: Citation `ISO definition' on page \thepage  undefined on input l
-ine 293.
+ine 294.
 
 
 LaTeX Warning: Citation `suiyan slides usability test' on page \thepage  undefi
-ned on input line 293.
+ned on input line 294.
 
-
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
- [5]
-(./proceedings.bbl) [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+[5] (./proceedings.bbl) [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
  (./proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
 (rerunfilecheck)             Checksum: B64E5ED83423563D3CD90095B1C67FCE;848.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 20069 strings out of 492616
- 369169 string characters out of 6129480
- 469307 words of memory out of 5000000
+ 20072 strings out of 492616
+ 369193 string characters out of 6129480
+ 474307 words of memory out of 5000000
  23354 multiletter control sequences out of 15000+600000
- 75884 words of font info for 201 fonts, out of 8000000 for 9000
+ 76014 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,81p,2486b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1294,7 +1331,7 @@ ist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on proceedings.pdf (6 pages, 117638 bytes).
+Output written on proceedings.pdf (6 pages, 117986 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
