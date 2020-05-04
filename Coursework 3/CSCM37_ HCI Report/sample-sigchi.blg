@@ -1,0 +1,93 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sample-sigchi.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in bevan2001proposed
+Warning--empty address in bevan2001proposed
+Warning--empty address in 26
+Warning--empty organization in 13
+Warning--empty organization in 24
+Warning--empty organization in 25
+Warning--empty organization in 27
+Warning--empty organization in 7
+Warning--empty organization in 3e
+Warning--empty organization in 10
+Warning--empty address in lazar2017research
+Warning--empty booktitle in datacollectionlecture
+Warning--empty address in datacollectionlecture
+Warning--page numbers missing in both pages and numpages fields in datacollectionlecture
+Warning--empty booktitle in quantitivelectures
+Warning--empty address in quantitivelectures
+Warning--page numbers missing in both pages and numpages fields in quantitivelectures
+Warning--empty booktitle in surveylecture
+Warning--empty address in surveylecture
+Warning--page numbers missing in both pages and numpages fields in surveylecture
+Warning--empty booktitle in HCIusability
+Warning--empty address in HCIusability
+Warning--page numbers missing in both pages and numpages fields in HCIusability
+Warning--empty organization in 6
+Warning--empty organization in 15
+Warning--empty address in shneiderman2016designing
+Warning--empty booktitle in 9
+Warning--empty address in 9
+Warning--page numbers missing in both pages and numpages fields in 9
+Warning--empty organization in 8
+Warning--empty title in 4
+Warning--empty address in 4
+Warning--empty organization in 14
+Warning--empty organization in 11
+Warning--empty organization in 5
+Warning--empty organization in 22
+Warning--empty organization in 12
+Warning--empty organization in 16
+You've used 26 entries,
+            5897 wiz_defined-function locations,
+            1578 strings with 20055 characters,
+and the built_in function-call counts, 21256 in all, are:
+= -- 2152
+> -- 635
+< -- 0
++ -- 191
+- -- 239
+* -- 1364
+:= -- 2354
+add.period$ -- 116
+call.type$ -- 26
+change.case$ -- 141
+chr.to.int$ -- 21
+cite$ -- 64
+duplicate$ -- 2054
+empty$ -- 1436
+format.name$ -- 255
+if$ -- 4589
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 44
+newline$ -- 289
+num.names$ -- 203
+pop$ -- 780
+preamble$ -- 1
+purify$ -- 365
+quote$ -- 0
+skip$ -- 841
+stack$ -- 0
+substring$ -- 1460
+swap$ -- 187
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 720
+warning$ -- 38
+while$ -- 197
+width$ -- 0
+write$ -- 486
+(There were 38 warnings)

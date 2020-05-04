@@ -1,0 +1,348 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{26}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Bevan and Schoeffel}{Bevan and
+  Schoeffel}{2001}]%
+        {bevan2001proposed}
+\bibfield{author}{\bibinfo{person}{Nigel Bevan} {and} \bibinfo{person}{Roland
+  Schoeffel}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{A proposed standard for consumer product
+  usability.}. In \bibinfo{booktitle}{\emph{HCI}}. \bibinfo{pages}{557--561}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Blum-Dimaya, Reeve, Reeve, and
+  Hoch}{Blum-Dimaya et~al\mbox{.}}{2010}]%
+        {26}
+\bibfield{author}{\bibinfo{person}{Alyssa Blum-Dimaya},
+  \bibinfo{person}{Sharon~A. Reeve}, \bibinfo{person}{Kenneth~F. Reeve}, {and}
+  \bibinfo{person}{Hannah Hoch}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Teaching Children with Autism to Play a Video Game
+  Using Activity Schedules and Game-Embedded Simultaneous Video Modeling}. In
+  \bibinfo{booktitle}{\emph{Education and Treatment of Children}}.
+  \bibinfo{publisher}{West Virginia University Press},
+  \bibinfo{pages}{351--370}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Coppola}{Coppola}{2017}]%
+        {13}
+\bibfield{author}{\bibinfo{person}{Jenny Coppola}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Science Behind Gamification: Why It
+  Works}}.
+\newblock
+\urldef\tempurl%
+\url{https://wistia.com/learn/marketing/the-science-behind-gamification}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Deese}{Deese}{2020}]%
+        {24}
+\bibfield{author}{\bibinfo{person}{Ashley Deese}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{5 Benefits of Gamification}}.
+\newblock
+\urldef\tempurl%
+\url{https://ssec.si.edu/stemvisions-blog/5-benefits-gamification}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Deese}{Deese}{2012}]%
+        {25}
+\bibfield{author}{\bibinfo{person}{Hashley Deese}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Using Gamification to Aid in Adolescent
+  Development in the Classroom: Cognitive and Physical Processes Can Enhance
+  Growth}}.
+\newblock
+\urldef\tempurl%
+\url{http://www.ashleydeese.com/2012/09/26/using-gamification-to-aid-in-adolescent-development-in-the-classroom-cognitive-and-physical-processes-can-enhance-growth/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Doyle}{Doyle}{2014}]%
+        {27}
+\bibfield{author}{\bibinfo{person}{Matt Doyle}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Learning with SimCity: Valuable Lessons
+  Kids Can Learn Playing Mayor}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.brightpips.com/learning-simcity-valuable-lessons-kids-learn-playing-mayor/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Gamification: Using Game-Design Elements in
+  Non-Gaming Contexts}}{{Gamification: Using Game-Design Elements in Non-Gaming
+  Contexts}}{2011}]%
+        {7}
+\bibfield{author}{\bibinfo{person}{{Gamification: Using Game-Design Elements in
+  Non-Gaming Contexts}}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{CHI}}}.
+\newblock
+\urldef\tempurl%
+\url{http://chi2011.org/communities/games/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Growth Engineering}}{{Growth
+  Engineering}}{2019}]%
+        {3e}
+\bibfield{author}{\bibinfo{person}{{Growth Engineering}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The History Of Gamification: From The Very
+  Beginning To Right Now}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.growthengineering.co.uk/history-of-gamification/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Herger}{Herger}{2012}]%
+        {10}
+\bibfield{author}{\bibinfo{person}{Mario Herger}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Gamification and Law or How to stay out of
+  Prison despite Gamification}}.
+\newblock
+\urldef\tempurl%
+\url{https://web.archive.org/web/20120425121358/http:/enterprise-gamification.com/index.php/en/blog/4-blog/65-gamification-and-law-or-how-to-stay-out-of-prison-despite-gamification}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lazar, Feng, and Hochheiser}{Lazar
+  et~al\mbox{.}}{2017}]%
+        {lazar2017research}
+\bibfield{author}{\bibinfo{person}{Jonathan Lazar},
+  \bibinfo{person}{Jinjuan~Heidi Feng}, {and} \bibinfo{person}{Harry
+  Hochheiser}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Research methods in human-computer
+  interaction}}.
+\newblock \bibinfo{publisher}{Morgan Kaufmann}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu}{Liu}{2020a}]%
+        {datacollectionlecture}
+\bibfield{author}{\bibinfo{person}{Siyuan Liu}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{Data Collection Lecture Slides}.
+  \bibinfo{publisher}{Swansea University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu}{Liu}{2020b}]%
+        {quantitivelectures}
+\bibfield{author}{\bibinfo{person}{Siyuan Liu}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{Quantitative Research Lecture Slides}.
+  \bibinfo{publisher}{Swansea University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu}{Liu}{2020c}]%
+        {surveylecture}
+\bibfield{author}{\bibinfo{person}{Siyuan Liu}.}
+  \bibinfo{year}{2020}\natexlab{c}.
+\newblock \showarticletitle{Surveys Lecture Slides}.
+  \bibinfo{publisher}{Swansea University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu}{Liu}{2020d}]%
+        {HCIusability}
+\bibfield{author}{\bibinfo{person}{Siyuan Liu}.}
+  \bibinfo{year}{2020}\natexlab{d}.
+\newblock \showarticletitle{Usablility Testing Lecture Slides}.
+  \bibinfo{publisher}{Swansea University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McGonigal}{McGonigal}{2010}]%
+        {6}
+\bibfield{author}{\bibinfo{person}{Jane McGonigal}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Gaming Can Make a Better World}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world?language=en#t-1184578}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Neuroscience Department
+  Laboratories}}{{Neuroscience Department Laboratories}}{2020}]%
+        {15}
+\bibfield{author}{\bibinfo{person}{{Neuroscience Department Laboratories}}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Brain Reward Pathways}}.
+\newblock
+\urldef\tempurl%
+\url{https://neuroscience.mssm.edu/nestler/brainRewardpathways.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shneiderman, Plaisant, Cohen, Jacobs,
+  Elmqvist, and Diakopoulos}{Shneiderman et~al\mbox{.}}{2016}]%
+        {shneiderman2016designing}
+\bibfield{author}{\bibinfo{person}{Ben Shneiderman}, \bibinfo{person}{Catherine
+  Plaisant}, \bibinfo{person}{Maxine Cohen}, \bibinfo{person}{Steven Jacobs},
+  \bibinfo{person}{Niklas Elmqvist}, {and} \bibinfo{person}{Nicholas
+  Diakopoulos}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Designing the user interface: strategies
+  for effective human-computer interaction}}.
+\newblock \bibinfo{publisher}{Pearson}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Silverman}{Silverman}{2011}]%
+        {9}
+\bibfield{author}{\bibinfo{person}{Rachel Silverman}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Latest Game Theory: Mixing Work and Play —
+  Companies Adopt gaming Techniques to Motivate Employees}.
+  \bibinfo{publisher}{Wallstreet Journal}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Swatman}{Swatman}{2016}]%
+        {8}
+\bibfield{author}{\bibinfo{person}{Rachel Swatman}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Pokémon Go catches five new world
+  records}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.guinnessworldrecords.com/news/2016/8/pokemon-go-catches-five-world-records-439327}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Walz}{Walz}{2015}]%
+        {4}
+\bibfield{author}{\bibinfo{person}{Steffen Walz}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock In \bibinfo{booktitle}{\emph{The Gameful World: Approaches, Issues,
+  Applications}}. \bibinfo{publisher}{MIT Press}, 31.
+\newblock
+\showISBNx{9780262325721}
+
+
+\bibitem[\protect\citeauthoryear{{Web MD}}{{Web MD}}{2020}]%
+        {14}
+\bibfield{author}{\bibinfo{person}{{Web MD}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{What Is Dopamine?}}
+\newblock
+\urldef\tempurl%
+\url{https://www.webmd.com/mental-health/what-is-dopamine#1}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia}}{{Wikipedia}}{2020a}]%
+        {11}
+\bibfield{author}{\bibinfo{person}{{Wikipedia}}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{Data Aggregation}}.
+\newblock
+\urldef\tempurl%
+\url{https://en.wikipedia.org/wiki/Data_aggregation}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia}}{{Wikipedia}}{2020b}]%
+        {5}
+\bibfield{author}{\bibinfo{person}{{Wikipedia}}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{Gamification}}.
+\newblock
+\urldef\tempurl%
+\url{https://en.wikipedia.org/wiki/Gamification}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia}}{{Wikipedia}}{2020c}]%
+        {22}
+\bibfield{author}{\bibinfo{person}{{Wikipedia}}.}
+  \bibinfo{year}{2020}\natexlab{c}.
+\newblock \bibinfo{booktitle}{\emph{Gamification of Learning}}.
+\newblock
+\urldef\tempurl%
+\url{https://en.wikipedia.org/wiki/Gamification_of_learning}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Wranx}}{{Wranx}}{2014}]%
+        {12}
+\bibfield{author}{\bibinfo{person}{{Wranx}}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Science Behind Gamification and Why it
+  Works}}.
+\newblock
+\urldef\tempurl%
+\url{https://blog.wranx.com/the-science-behind-gamification-and-why-it-works}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yuhas}{Yuhas}{2012}]%
+        {16}
+\bibfield{author}{\bibinfo{person}{Daisy Yuhas}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Three Critical Elements Sustain
+  Motivation}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.scientificamerican.com/article/three-critical-elements-sustain-motivation/}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
